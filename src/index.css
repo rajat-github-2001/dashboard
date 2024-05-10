@@ -1,0 +1,154 @@
+body {
+  padding: 20px 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.drawer {
+  width: 300px;
+  height: 100%;
+  background: gray;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bell-icon {
+  background: lightgray;
+  padding: 12px;
+  border-radius: 100%;
+}
+
+.name {
+  font-weight: 800;
+  font-size: xx-large;
+  margin: 0px;
+}
+
+.designation {
+  color: gray;
+  font-size: large;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontal{
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid black;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  width: 900px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 60px
+}
+
+.educationCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.college {
+  color: gray;
+  font-size: small;
+}
+
+.certificate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: blue;
+  gap: 10px;
+  background: lightgray;
+  width: 150px;
+  height: 30px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  gap: 10px;
+  color: blue;
+  border-radius: 40%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.label {
+  color: gray;
+}
+
+.data {
+  font-style: bold;
+  text-align: right;
+  font-weight: 500;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 600;
+  color: gray;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: 600;
+  color: darkblue;
+}
